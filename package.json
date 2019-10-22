@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "ModistEx",
+  "description": "ModistEx",
   "version": "0.0.1",
   "scripts": {
     "start": "sapper dev",

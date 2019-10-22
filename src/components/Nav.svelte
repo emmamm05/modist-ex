@@ -1,4 +1,5 @@
 <script>
+	import HeaderMain from './HeaderMain';
 	export let segment;
 </script>
 
@@ -48,13 +49,16 @@
 	}
 </style>
 
+<HeaderMain />
 <nav>
 	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
+		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>NEW IN</a></li>
+		<li><a class='{segment === "designers" ? "selected" : ""}' href='designers'>DESIGNERS</a></li>
+		<li><a class='{segment === "clothing" ? "selected" : ""}' href='clothing'>CLOTHING</a></li>
+		<li><a class='{segment === "shoes" ? "selected" : ""}' href='shoes'>SHOES</a></li>
+		<li><a class='{segment === "bags" ? "selected" : ""}' href='bags'>BAGS</a></li>
+		<li><a class='{segment === "accessories" ? "selected" : ""}' href='accessories'>ACCESSORIES</a></li>
+		<li><a class='{segment === "communities" ? "selected" : ""}' href='communities'>COMMUNITIES</a></li>
+		<li><a class='{segment === "blog" ? "selected" : ""}' href='blog'>BLOG</a></li>
 	</ul>
 </nav>
