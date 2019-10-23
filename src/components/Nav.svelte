@@ -49,7 +49,6 @@
 	}
 </style>
 
-<HeaderMain />
 <nav>
 	<ul>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>NEW IN</a></li>
